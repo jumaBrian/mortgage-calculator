@@ -1,5 +1,6 @@
 package com.brayocodes;
 
+import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Main {
@@ -25,6 +26,10 @@ public class Main {
         double mortgage = principal
                 *(monthlyInterest*Math.pow(1 + monthlyInterest, numberOfPayments))
                 /(Math.pow(1 + monthlyInterest, numberOfPayments)-1);
+
+        String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
+
+
 
 
     }
