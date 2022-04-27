@@ -3,6 +3,9 @@ package com.brayocodes;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        final byte MONTHS_IN_YEAR = 12;
+        final byte PERCENT = 100;
+
     }
 }
